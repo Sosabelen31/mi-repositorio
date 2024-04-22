@@ -6,12 +6,6 @@ body{
 
 /*estilos mobile*/
 
-header{
-    display: flex;
-    justify-content: space-between;
-   
-    
-}
 
 
 header nav ul {
@@ -19,25 +13,50 @@ header nav ul {
     height: 50%;
     background-color:#f3be81 ;
     list-style: none;
-    column-gap: 50px;
+    column-gap: 10px;
     justify-content: space-between;
     display: flex;
-    gap: 70px;
+    gap: 10px;
+    justify-content: space-around;
+    
 
 
 }
 
-header img{width: 40%;
+header img{width: 100%;
+    border-radius: 1px solid black;
+}
+
+main{
+    margin: 100px;
     
+}
+
+.contenedor{
+    display: flex;
     
+}
+
+section div img{
+    width: 100%;
+    height: 80%;
+    flex-wrap: wrap;
 
 }
+
 main p{
     font-weight: bold;
     color: rgb(63, 60, 60);
     text-align: center;
     font-size: 40px;
     ;
+    
+}
+
+main img{
+    margin:  150px;
+    display: flex;
+    
 }
 main h1{color: #5e5955;
     font-size: 30px;
@@ -46,30 +65,24 @@ main h1{color: #5e5955;
     text-align: center;
     font-weight: bold;
     }
-main div {
-    width: 16%;
-    display: grid;
+
+
+main div img {
+    display: flex;
+     width: 50%;
   grid-template-columns: 4fr ;
   grid-template-rows: repeat(3);
-  
-}
-main div img {
-   
-    display: flex;
-    width: 100%;
     height: 100%;
-    object-fit: cover
+    object-fit: cover    
     
 }
-    
+ 
+
 section a{
     display: block;
-}
-
-section h2 span{
-    display: block;
     
 }
+
 section h2{
     background-color: #f3be81;
 color: rgb(63, 60, 60);
@@ -77,8 +90,6 @@ display: inline-block;
 margin: 50px;
 text-align: center;
 }
-
-
 
 footer p{
     margin-top: 50px;
