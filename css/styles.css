@@ -1,7 +1,7 @@
 body {
+  display: flex;
   background-color: #f7e1c8;
   flex-wrap: wrap;
-  display: flex;
 }
 
 header {
@@ -54,20 +54,11 @@ section {
 }
 section h2 {
   display: grid;
-  background-color: #f3be81;
+  background-color: #f7e1c8;
   color: rgb(63, 60, 60);
   margin: 50px;
   border: solid 3px rgb(82, 80, 78);
   text-align: center;
-}
-
-footer {
-  display: flex;
-  margin-top: 50px;
-  text-align: center;
-  font-weight: bold;
-  color: rgb(63, 60, 60);
-  flex-wrap: wrap;
 }
 
 .contenedor-portada {
@@ -114,5 +105,12 @@ section {
   border: solid 3px rgb(82, 80, 78);
   text-align: center;
 }
-
+footer {
+  display: flex;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(63, 60, 60);
+  flex-wrap: wrap;
+}
 /*# sourceMappingURL=styles.css.map */
