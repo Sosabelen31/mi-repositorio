@@ -15,6 +15,7 @@ body{
    background-color: $color-principal;
    flex-wrap: wrap;
    display: flex;
+   
     img{
    display: flex;
    width: 100%;
@@ -27,6 +28,7 @@ body{
    flex-wrap: wrap;
    justify-content: center;
    
+   
    p{
    color: #3b3a38;
    font-size: 40px;
@@ -34,6 +36,7 @@ body{
    text-align: center;
    font-weight: bold;
    margin: 5%;
+  
    
    }
    h1{
@@ -43,7 +46,13 @@ body{
        text-align: center;
        font-weight: bold;
        margin: 5%;
+       
    }
+  img{
+    width: 50%;
+    height: 80%;
+    display: flex;
+  }
    }
    
    
@@ -51,18 +60,20 @@ body{
    .contenedor{
    display: flex;
    justify-content: center;
+   
       img{
        display: flex;
        width: 100%;
        height: 80%;
        flex-wrap: wrap;
-   
+       
    } 
    }
    
    section{
        display: flex;
        display: block;
+      
    
        h2{
         display: grid;
@@ -71,8 +82,20 @@ body{
         margin: 50px;
         border: solid 3px rgb(82, 80, 78);
         text-align: center;
+       
        }
+       
    }
+.info-nosotras{
+    display: grid;
+    background-color: $color-principal;
+    color: rgb(63, 60, 60);
+    margin: 50px;
+    border: solid 3px rgb(82, 80, 78);
+    text-align: center;
    
+}
+ 
+  
 @import "./html/productos";
 
