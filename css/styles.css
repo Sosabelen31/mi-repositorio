@@ -51,6 +51,11 @@ main h1 {
   font-weight: bold;
   margin: 5%;
 }
+main img {
+  width: 50%;
+  height: 80%;
+  display: flex;
+}
 
 .contenedor {
   display: flex;
@@ -76,6 +81,23 @@ section h2 {
   text-align: center;
 }
 
+.info-nosotras {
+  display: grid;
+  background-color: #f7e1c8;
+  color: rgb(63, 60, 60);
+  margin: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: #5e5955;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  margin: 5%;
+}
+
 .contenedor-portada {
   flex-wrap: wrap;
 }
@@ -95,21 +117,26 @@ section h2 {
 
 .info-contenedor {
   display: flex;
-  flex-wrap: wrap;
+   text-decoration: none;
+   flex-wrap: wrap;
   background-color: #f3be81;
   padding: 5px;
+  margin: 2%;
+ 
 }
 .info-contenedor div {
-  display: inline block;
+  display: inline block; 
+  text-decoration: none;
   color: rgb(90, 49, 49);
   margin: 4%;
   padding: 5px;
   align-items: first baseline;
-  display: inline block;
+ 
+ 
 }
 .info-contenedor img {
   display: flex;
-  width: 10%;
+  width:50%;
   height: 80%;
 }
 

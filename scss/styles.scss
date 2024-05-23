@@ -21,7 +21,10 @@ body{
    width: 100%;
    height: 80%;
    flex-wrap: wrap;
-    }
+
+
+  }
+ 
   
    }
    main{
@@ -46,6 +49,7 @@ body{
        text-align: center;
        font-weight: bold;
        margin: 5%;
+      
        
    }
   img{
@@ -53,9 +57,10 @@ body{
     height: 80%;
     display: flex;
   }
+
    }
    
-   
+
    
    .contenedor{
    display: flex;
@@ -65,8 +70,7 @@ body{
        display: flex;
        width: 100%;
        height: 80%;
-       flex-wrap: wrap;
-       
+       flex-wrap: wrap; 
    } 
    }
    
@@ -86,16 +90,27 @@ body{
        }
        
    }
-.info-nosotras{
+
+   .info-nosotras{
     display: grid;
     background-color: $color-principal;
     color: rgb(63, 60, 60);
     margin: 50px;
-    border: solid 3px rgb(82, 80, 78);
+   
     text-align: center;
    
 }
- 
-  
+
+
+h2{
+     color: $color-secundario;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            text-align: center;
+            font-weight: bold;
+           margin: 5%
+}
+
+
 @import "./html/productos";
 
