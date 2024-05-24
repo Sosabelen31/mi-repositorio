@@ -117,27 +117,23 @@ h2 {
 
 .info-contenedor {
   display: flex;
-   text-decoration: none;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: #f3be81;
   padding: 5px;
-  margin: 2%;
- 
+  margin: 5%;
 }
 .info-contenedor div {
-  display: inline block; 
-  text-decoration: none;
+  display: inline block;
   color: rgb(90, 49, 49);
-  margin: 4%;
+  margin: 5%;
   padding: 5px;
   align-items: first baseline;
- 
- 
+  display: inline block;
 }
 .info-contenedor img {
   display: flex;
-  width:50%;
-  height: 80%;
+  width: 20%;
+  height: 55%;
 }
 
 .productos-info {
