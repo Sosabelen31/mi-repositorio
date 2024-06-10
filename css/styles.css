@@ -13,6 +13,11 @@ footer {
   flex-wrap: wrap;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background-color: #f7e1c8;
   flex-wrap: wrap;
@@ -27,12 +32,10 @@ header {
 header img {
   display: flex;
   width: 100%;
-  height: 80%;
-  flex-wrap: wrap;
 }
 
 main {
-  flex-wrap: wrap;
+  display: grid;
   justify-content: center;
 }
 main p {
@@ -51,10 +54,14 @@ main h1 {
   font-weight: bold;
   margin: 5%;
 }
-main img {
-  width: 50%;
-  height: 80%;
+
+.info-contenedor h2 {
   display: flex;
+  flex-wrap: wrap;
+  color: rgb(63, 60, 60);
+  margin: 0px 10%;
+  text-align: center;
+  text-decoration: none;
 }
 
 .contenedor {
@@ -63,14 +70,19 @@ main img {
 }
 .contenedor img {
   display: flex;
-  width: 100%;
-  height: 80%;
+  width: 90%;
+  height: 70%;
   flex-wrap: wrap;
 }
 
 section {
   display: flex;
-  display: block;
+}
+section img {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 15%;
 }
 section h2 {
   display: grid;
@@ -81,11 +93,22 @@ section h2 {
   text-align: center;
 }
 
+h4 {
+  display: flex;
+  margin: 15px;
+}
+
 .info-nosotras {
   display: grid;
   background-color: #f7e1c8;
   color: rgb(63, 60, 60);
   margin: 50px;
+  text-align: center;
+}
+.info-nosotras h3 {
+  display: grid;
+  background-color: #f7e1c8;
+  color: rgb(63, 60, 60);
   text-align: center;
 }
 
@@ -95,7 +118,31 @@ h2 {
   font-style: italic;
   text-align: center;
   font-weight: bold;
-  margin: 5%;
+  margin: 50px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+  margin: 50px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  color: rgb(63, 60, 60);
+  background-color: #ffb662;
+}
+footer a {
+  display: flex;
+  padding: 20px;
+  display: inline-block;
+}
+
+.productos-info {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contenedor-portada {
@@ -120,29 +167,28 @@ h2 {
   flex-wrap: wrap;
   background-color: #f3be81;
   padding: 5px;
-  margin: 5%;
 }
 .info-contenedor div {
   display: inline block;
   color: rgb(90, 49, 49);
-  margin: 5%;
+  margin: 4%;
   padding: 5px;
   align-items: first baseline;
   display: inline block;
 }
 .info-contenedor img {
   display: flex;
-  width: 20%;
-  height: 55%;
+  width: 10%;
+  height: 80%;
 }
 
 .productos-info {
-  display: grid;
+  display: flex;
   background-color: #f3be81;
   color: rgb(63, 60, 60);
   margin: 50px;
+  padding: 20px;
   border: solid 3px rgb(82, 80, 78);
-  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
